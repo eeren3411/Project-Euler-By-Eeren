@@ -1,6 +1,3 @@
-import enum
-
-
 def getDivisors(number):
     divisors = list()
     for i in range(1, int(number**0.5)+1):
