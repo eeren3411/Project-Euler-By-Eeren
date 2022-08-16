@@ -5,7 +5,7 @@ def sumPowerDigits(number):
     return sumPower
 
 totalSum = 0
-for i in range(2, 1000000):
+for i in range(2, 354294): # 354294 is highest number  you can achieve by 6*9^5, after that point you're losing hard
     if i == sumPowerDigits(i):
         totalSum += i
         print(i)

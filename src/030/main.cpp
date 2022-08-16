@@ -17,7 +17,7 @@ long long int getSumPowerDigits(int number){
 
 int main(){
     long long int sum = 0;
-    for(long int i=2; i<1000000; i++){
+    for(long int i=2; i<354294; i++){ // 354294 is highest number  you can achieve by 6*9^5, after that point you're losing hard
         if(i == getSumPowerDigits(i)){
             cout << i << "\n";
             sum += i;
